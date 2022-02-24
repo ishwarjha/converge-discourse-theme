@@ -1,12 +1,12 @@
 .search-widget .menu-panel.drop-down{padding: 0px !important; border-radius:6px !important;}
 .categories-and-latest div.column{min-width: 100%!important; width:100%!important;}
-.category.category-box {width: 17.5%; display: inline-block; vertical-align: top;text-align: center;padding: 35px 20px;  border: 1px solid #F0F2F5!important; transition: all ease .5s; margin: 0 4% 60px 0;}
+.category.category-box {width: 17.5%; display: inline-block; vertical-align: top;text-align: center;padding: 35px 20px;  border: 1px solid #e7e7e7!important; transition: all ease .5s; margin: 0 4% 60px 0;     border-radius: 10px; }
 .category.category-box:hover{ border: 1px solid #fff!important; box-shadow: 0 4px 10px #252f3f1a; transition: all ease .5s;}
 
 .category.category-box:nth-child(4){margin-right:0px !important;}
 	.category.category-box:nth-child(8){margin-right:0px !important;}
 .custom-search-banner {height: 285px !important; display: flex;  margin-bottom: 30px; align-items: center;  }
-.category-logo img{ width: 80px; height: auto;}
+.category-logo img{ width: 80px; height: auto; margin-bottom: 15px;}
 .topic-navigation.with-timeline{display:none }
 .topic-post .topic-body{width: calc(100% - 47px);}
 #topic-footer-buttons, .topic-map, .time-gap.small-action, .post-notice.new-user, .topic-list .posts.num.topic-list-data, 
