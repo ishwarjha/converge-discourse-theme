@@ -51,8 +51,6 @@
   {{raw "list/posters-column" posters=topic.featuredUsers}}
 {{/if}}
 
-{{raw "list/posts-count-column" topic=topic}}
-
 {{#if showLikes}}
   <td class="num likes topic-list-data">
     {{#if hasLikes}}
@@ -77,5 +75,3 @@
   {{raw-plugin-outlet name="topic-list-before-view-count"}}
   {{number topic.views numberKey="views_long"}}
 </td>
-
-{{raw "list/activity-column" topic=topic class="num topic-list-data" tagName="td"}}
