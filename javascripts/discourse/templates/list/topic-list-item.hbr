@@ -47,10 +47,6 @@
   {{/if}}
 </td>
 
-{{#if showPosters}}
-  {{raw "list/posters-column" posters=topic.featuredUsers}}
-{{/if}}
-
 {{#if showLikes}}
   <td class="num likes topic-list-data">
     {{#if hasLikes}}
