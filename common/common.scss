@@ -1,6 +1,8 @@
 .search-widget .menu-panel.drop-down{padding: 0px !important; border-radius:6px !important;}
 .categories-and-latest div.column{min-width: 100%!important; width:100%!important;}
 .category.category-box {width: 18%; display: inline-block; vertical-align: top;text-align: center;padding: 35px 20px; border: 1px solid #ccc; margin: 0 4% 60px 0;}
+.category.category-box(4){margin-right:0px !important;}
+	.category.category-box(8){margin-right:0px !important;}
 .custom-search-banner {height: 285px !important; display: flex;  margin-bottom: 30px; align-items: center;  }
 .topic-navigation.with-timeline{display:none }
 .topic-post .topic-body{width: calc(100% - 47px);}
