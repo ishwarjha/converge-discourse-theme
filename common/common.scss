@@ -59,6 +59,10 @@
 .docs-search .docs-search-wrapper{width: 720px;}
 .docs-search .docs-search-bar{border-radius: 5px; border-color: #ccc!important;}
 
+@media (max-width: 950px){
+.category.category-box { width: 15.5%;}
+}
+
 
 
 @media (max-width: 750px){
