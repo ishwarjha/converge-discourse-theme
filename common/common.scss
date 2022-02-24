@@ -58,7 +58,7 @@
 .docs-search .docs-search-wrapper{width: 720px;}
 .docs-search .docs-search-bar{border-radius: 5px; border-color: #ccc!important;}
 
-.topic-body .post-controls { display:none; }
+.topic-body .post-controls, .link-share-actions { display:none; }
 
 @media (max-width: 950px){
 .category.category-box { width: 15.5%;}
