@@ -1,8 +1,7 @@
 .custom-search-banner {height: 285px !important; display: flex;  margin-bottom: 30px; align-items: center;  }
 .topic-navigation.with-timeline{display:none }
 .topic-post .topic-body{width: calc(100% - 47px);}
-#topic-footer-buttons, .topic-map, .time-gap.small-action, .post-notice.new-user, .topic-list .posts.num.topic-list-data, 
-.topic-list .activity.num.topic-list-data{display:none}
+.topic-notifications-button{display:none}
 .suggested-topics {margin-top: 1.5em;}
 
 .btn-primary.login-button.btn.btn-icon-text{margin:0 auto;}
@@ -46,7 +45,7 @@
 .docs-search .docs-search-wrapper{width: 720px;}
 .docs-search .docs-search-bar{border-radius: 5px; border-color: #ccc!important;}
 
-
+topic-body .post-controls { display:none; }
 
 @media (max-width: 750px){
 .custom-search-banner-wrap>div {width: 90%;}
