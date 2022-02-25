@@ -5,7 +5,6 @@
 .category-box-heading h3{color:#4F5661 !important; margin-bottom: 10px;
     display: block; font-weight: 600; font-size: 16px;}
 .category.category-box:hover{ border: 1px solid #fff!important; box-shadow: 0 4px 10px #252f3f1a; transition: all ease .5s;}
-
 .category.category-box:nth-child(4){margin-right:0px !important;}
 	.category.category-box:nth-child(8){margin-right:0px !important;}
 .custom-search-banner {height: 285px !important; display: flex;  margin-bottom: 30px; align-items: center;  }
@@ -14,6 +13,10 @@
 .topic-post .topic-body{width: calc(100% - 47px);}
 .topic-notifications-button{display:none}
 .suggested-topics {margin-top: 1.5em;}
+.topic-map, .time-gap.small-action,.post-notice.new-user{display:none}
+
+
+
 
 .btn-primary.login-button.btn.btn-icon-text{margin:0 auto;}
 .wrap .contents.body-page{max-width: 100%;}
