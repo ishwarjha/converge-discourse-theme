@@ -2,10 +2,9 @@
 .categories-and-latest div.column{min-width: 100%!important; width:100%!important;}
 .category.category-box {width: 17.5%; display: inline-block; vertical-align: top;text-align: center;padding: 25px 20px;  border: 1px solid #dfdfdf!important; transition: all ease .5s; margin: 0 4% 40px 0;     border-radius: 10px; }
 .column.categories { margin-top: 35px;}
-.category-box-heading a{color:#4F5661 !important; margin-bottom: 10px;
-    display: block;}
+.category-box-heading h3{color:#4F5661 !important; margin-bottom: 10px;
+    display: block; font-weight: 600; font-size: 16px;}
 .category.category-box:hover{ border: 1px solid #fff!important; box-shadow: 0 4px 10px #252f3f1a; transition: all ease .5s;}
-
 .category.category-box:nth-child(4){margin-right:0px !important;}
 	.category.category-box:nth-child(8){margin-right:0px !important;}
 .custom-search-banner {height: 285px !important; display: flex;  margin-bottom: 30px; align-items: center;  }
@@ -14,13 +13,17 @@
 .topic-post .topic-body{width: calc(100% - 47px);}
 .topic-notifications-button{display:none}
 .suggested-topics {margin-top: 1.5em;}
+.topic-map, .time-gap.small-action,.post-notice.new-user{display:none}
+
+
+
 
 .btn-primary.login-button.btn.btn-icon-text{margin:0 auto;}
 .wrap .contents.body-page{max-width: 100%;}
 .login-required{text-align:center;}
 .title .search-header{display:none;}
 .search-widget .menu-panel.drop-down{    right: 0; left: 0;width: 100% !important;}
-.custom-search-banner-wrap{ padding: 0em 0 3em!important; margin: 0em auto !important;}
+.custom-search-banner-wrap{  margin: 0em auto !important;}
 
 
 
@@ -72,14 +75,16 @@
 .list-controls .navigation-container .category-breadcrumb, .list-controls .navigation-container .nav { display: none;}
 
 @media (max-width: 950px){
-.category.category-box { width: 15.5%;}
+.category.category-box { width: 15.5%;     height: 150px;}
 }
 
 
 
 @media (max-width: 750px){
 .custom-search-banner-wrap>div {width: 90%;}
-.category.category-box { width: 70% ; margin: 0 auto 35px !important; display: block;}
+.category.category-box { width: 70% ; margin: 0 auto 35px !important; display: block; height: auto;}
 .category.category-box:nth-child(4) { margin-right: auto !important;}
 .category.category-box:nth-child(8) { margin-right: auto !important;}
+.custom-search-banner-wrap { padding: 1em 8px 1em;}
+.custom-search-banner { height: 300px !important;}
 }
